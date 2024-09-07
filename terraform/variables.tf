@@ -53,12 +53,13 @@ variable "instance_type" {
   default     = "m6g.large"
 }
 
+ 
 variable "key_name" {
-  description = "EC2 keypair"
-  type        = string
-  default     = "gitopskey"
-}
-
+   description = "EC2 keypair"
+   type        = string
+   default     = "key"
+} 
+# gitops
 variable "instance_name" {
   description = "EC2 Instance name for the jumphost server"
   type        = string
