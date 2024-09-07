@@ -57,7 +57,7 @@ variable "instance_type" {
 variable "key_name" {
    description = "EC2 keypair"
    type        = string
-   default     = "key"
+   default     = "KEY"
 } 
 # gitops
 variable "instance_name" {
